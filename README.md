@@ -3,6 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/) 
 [![Flask 2.0+](https://img.shields.io/badge/Flask-2.0%2B-green.svg)](https://flask.palletsprojects.com/) 
 [![MySQL](https://img.shields.io/badge/MySQL-Database-orange.svg)](https://www.mysql.com/) 
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-Responsive%20UI-purple.svg)](https://getbootstrap.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This project demonstrates how to implement a Flask-based web application using MySQL for user authentication, profile management, and secure document sharing. It also features **role-based access** so that faculty members can update grades, while students can only view them.
