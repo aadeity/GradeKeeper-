@@ -30,7 +30,29 @@ This project demonstrates how to implement a Flask-based web application using M
    ```bash
    python app.py
 7. Open your browser at http://127.0.0.1:5000/.
-   
+## Demo
+**students side**
+![image](https://github.com/user-attachments/assets/85357c37-f60c-4eae-95d8-7f80a6764e9b)
+![image](https://github.com/user-attachments/assets/4a3d4f70-ef33-4888-9627-5674470aec58)
+![image](https://github.com/user-attachments/assets/9f99a5ce-d58f-481d-a403-bf0c26e6c62a)
+![image](https://github.com/user-attachments/assets/068edcd8-bc1f-441a-9116-24ab77c360af)
+![image](https://github.com/user-attachments/assets/6dcb73c1-6219-42d0-8adf-3f109f2ba448)
+**teachers side**
+![image](https://github.com/user-attachments/assets/bdecdd7d-9798-45fe-8012-59f978c81821)
+![image](https://github.com/user-attachments/assets/9368d105-3022-425a-a4ef-1cc6c9d87281)
+![image](https://github.com/user-attachments/assets/5294957d-4d9c-4cd8-91b7-52d21e5c4b64)
+![image](https://github.com/user-attachments/assets/7b8440ca-abb5-4200-9a8f-b5ad7acd3549)
+**students side**
+![image](https://github.com/user-attachments/assets/8ca1ff9a-4ecd-41c2-ac6c-828ef6b97530)
+
+
+
+
+
+
+
+
+
 ## Usage
 
 New Users: Click “Signup” to create an account.
