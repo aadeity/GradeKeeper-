@@ -11,12 +11,12 @@ app.secret_key = 'your secret key'
 # MySQL configurations – update these with your actual MySQL credentials
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Aditi@8890'
+app.config['MYSQL_PASSWORD'] = 'your password'
 app.config['MYSQL_DB'] = 'userauthdb'  # Ensure this matches your database name
 
 mysql = MySQL(app)
 
-# Home route (landing page)
+# landing page
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -127,7 +127,7 @@ def reset_password():
         return render_template('reset_password.html')
     return redirect(url_for('login'))
 
-# Grades route – view-only page for users to see their grades
+# view-only page for users to see their grades
 @app.route('/grades')
 def grades():
     if 'loggedin' in session:
@@ -147,7 +147,7 @@ def grades():
         return render_template('grades.html', grades=grades)
     return redirect(url_for('login'))
 
-# Add Grade route – accessible only for teachers, with a dropdown list of students.
+# - accessible only for teachers, with a dropdown list of students.
 # After adding a grade, it stays on the same page and shows a flash message.
 @app.route('/add_grade', methods=['GET', 'POST'])
 def add_grade():
